@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="598" height="120" viewBox="0 0 598 120">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="6" width="46.013" height="120" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_7" data-name="Grupo 7" transform="translate(-677 -187)">
+    <g id="Grupo_de_rolagem_1" data-name="Grupo de rolagem 1" transform="translate(946.993 187)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <g id="Caminho_1" data-name="Caminho 1" fill="#e3e3e3">
+        <path d="M 113.2220458984375 119.5 L 0.7910903096199036 119.5 L 57.00656127929688 1.16524600982666 L 113.2220458984375 119.5 Z" stroke="none"/>
+        <path d="M 57.00656127929688 2.330497741699219 L 1.582160949707031 119 L 112.4309616088867 119 L 57.00656127929688 2.330497741699219 M 57.00656127929688 0 L 114.0131301879883 120 L -7.62939453125e-06 120 L 57.00656127929688 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Polígono_2" data-name="Polígono 2" transform="translate(114 120) rotate(180)" fill="#e3e3e3">
+        <path d="M 113.2089538574219 119.5 L 0.7910445332527161 119.5 L 56.99998474121094 1.165357112884521 L 113.2089538574219 119.5 Z" stroke="none"/>
+        <path d="M 56.99998474121094 2.330696105957031 L 1.582084655761719 119 L 112.4179153442383 119 L 56.99998474121094 2.330696105957031 M 56.99998474121094 0 L 114 120 L 0 120 L 56.99998474121094 0 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+    <line id="Linha_8" data-name="Linha 8" x2="261" transform="translate(677 247)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Linha_9" data-name="Linha 9" x2="261" transform="translate(1014 247)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>

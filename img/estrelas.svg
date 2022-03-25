@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144" height="48" viewBox="0 0 144 48">
+  <defs>
+    <image id="image" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZ0lEQVRoge2XPS8EURSGj/hMREg0otgIFZVIdHqa7dDZH0ChIFHwA7RKFERHp9qGQoGKRCXZRqESQUhEQny8N7Ob2Z2xM3dm1j2K90meZDJ7JnnOZHM3K0IIIYQQ8m8ZgcPaEVlYg6vaEVm4hBfaEWkZgF/wGw7qpqRjWbx445JySyrOxF/gVLklMX3wU/wFzHW/alFCFsSPrzivWpSQYwkvcKRaVMUMfJRwYFaf4ZyrJXLwpIHx53DIVXyFZrgC3zOEf8B12Oq4vYZxWJLk8TdwQqH3V7rgptjHH8AeldIYihIfX1Sri6FdvJMkboEX2KHUGEle7L9CeaXGSHYkHHpbNnh/VyexPuYYfJDayEPYC7vhfuCzJ9imUlqHSfHj3uAibArMFOBr1dyUy8A4tsSLuoajEXPmP/JVeXbbQZcV5hf5Du7BTot5cwJtwHvY8odd1pg3PpviuWk41uAWQgghhBBCHPIDZKyxegtxpd8AAAAASUVORK5CYII="/>
+  </defs>
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-723 -261)">
+    <use id="_352141_rate_star_icon" data-name="352141_rate_star_icon" transform="translate(723 261)" xlink:href="#image"/>
+    <use id="_352141_rate_star_icon-2" data-name="352141_rate_star_icon" transform="translate(747 261)" xlink:href="#image"/>
+    <use id="_352141_rate_star_icon-3" data-name="352141_rate_star_icon" transform="translate(771 261)" xlink:href="#image"/>
+    <use id="_352141_rate_star_icon-4" data-name="352141_rate_star_icon" transform="translate(795 261)" xlink:href="#image"/>
+    <use id="_352141_rate_star_icon-5" data-name="352141_rate_star_icon" transform="translate(819 261)" xlink:href="#image"/>
+  </g>
+</svg>

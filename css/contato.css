@@ -1,0 +1,162 @@
+@font-face {
+  font-family: typecondensed;
+  src: url(/typecondensed/typewcond_bold.otf);
+}
+
+/*Introdução-interna Sobre*/
+
+/*Inicio Orçamento*/
+
+.orcamento {
+	background: rgba(0, 0, 0, 0.178) url("../img/bg-sobre2.jpg") no-repeat center;
+  background-size: cover;
+  background-blend-mode: darken;
+	width: 100%;
+  height: 1200px;
+	margin-top: 105px;
+	padding: 60px 0;
+}
+
+.orcamento h1 {
+  font-family: typecondensed;
+  font-size: 80px;
+  color: #363836;
+  text-align: center;
+  
+}
+
+.orcamento h1:after {
+  margin: 0 auto;
+  background: #1df700af;
+}
+
+.orcamento h2 {
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: left;
+	color: #000000;
+}
+
+.orcamento h2:after {
+  margin-right: 1000px;	
+  background: #000000;
+}
+
+.form {
+  background: rgba(255, 246, 246, 0.774);
+  background-blend-mode: darken;
+  padding: 90px 50px;
+  margin-top: 0 auto;
+  text-align: left;
+  font-weight: bold;
+}
+
+.form label{
+	display: block;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+
+.form input {
+	display: block;
+	width: 100%;
+	border: 4px solid #000000;
+	background: none;
+	color: #000000;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 20px;
+
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.form textarea {
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 4px solid #000000;
+	background: none;
+	color: #000000;
+	padding: 7px 10px;
+	margin-bottom: 20px;
+	outline: none;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+
+
+
+
+.redes-interno {
+  background: rgba(255, 246, 246, 0.774);
+  background-blend-mode: darken;
+  padding: 90px 50px 50px 50px;
+  margin-top: 0 auto;
+  margin-left: 30px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.redes-interno h3{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+}
+
+.redes-interno span {
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.redes-interno span:nth-of-type(even) {
+	margin-bottom: 30px;
+}
+
+
+
+
+.redes-interno ul li {
+  filter: brightness(0%);
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 10px;
+  
+}
+
+.redes-interno ul li a {
+  border: 3px solid #3a3a3a;
+  display: block;
+  padding: 10px;
+}
+
+.redes-interno ul li a:hover {
+  border-color: #fff;
+}
+
+
+/*Inicio Quebra*/
+.quebra-interna {
+  width: 100%;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  padding-top: 40px;
+}
+.quebra-interna p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  font-size: 21px;
+  color: #353535;
+  padding-top: 10px;
+}
+
+

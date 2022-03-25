@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>RC - CONTATO</title>
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/contato.css">
+
+
+	<script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<a href="index.html" class="grid-4">
+				<img src="img/rc-contabil.png" alt="Raimundo Cunha Contabilidade">
+			</a>
+			<nav class="grid-12 header_menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="servicos.html">Serviços</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!--Fecha Header-->
+
+
+	<section class="orcamento">
+		<div class="container">
+			<h1 data-anime='400' class="subtitulo">CONTATO</h1>
+			<div class="grid-8">
+				
+				<form data-anime='800' id="form_orcamento" method="POST" action="./enviar.php" class="form  formphp">
+					<h2 class="subtitulo">DÚVIDAS</h2>
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" name="nome" required>
+					<label for="email">E-mail</label>
+					<input type="email" id="email" name="email" required>
+
+					<label for="mensagem">Mensagem</label>
+					<textarea id="mensagem" name="mensagem" required></textarea>
+					<button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+				</form>
+			</div>
+			<div data-anime='800' class="grid-8">
+				<div class="redes-interno">
+					<h3>Dados</h3>
+					<span>+55 84 98807 2462</span>
+					<span>raicunha@hotmail.com</span>
+					<span>Rua Ali Perto - Alecrim</span>
+					<span>Natal - RN - Brasil</span>
+					<h3>Redes Sociais</h3>
+					<ul>
+						<li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook Bikcraft"></a></li>
+						<li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram Bikcraft"></a></li>
+						<li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter Bikcraft"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!--Fecha Dúvidas e orçamento contato-->
+
+	<section class="quebra">
+		<div class="conteudo-sobre container">
+			<div class="grid-8">
+				<p>Quando o assunto é contabilidade, você pode contar conosco.</p>
+			</div>
+			<div class="botao-quebra grid-8">
+				<a href="contato.html" class="btn">Fale Conosco</a>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!--Fecha Quebra-->
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+
+				<div class="grid-8 footer_historia">
+					<h3>Nossa História</h3>
+					<p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana cotidiana. interesse por todos os detalhes da vida cotidiana cotidiana.</p>
+				</div>
+
+				<div class="grid-4 footer_contato">
+					<h3>Contato</h3>
+					<ul>
+						<li>- 84 98807-2462</li>
+						<li>- raicunha@hotmail.com</li>
+						<li>- Natal - RN</li>
+					</ul>
+				</div>
+
+				<div class="grid-4 footer_redes">
+					<h3>Contato</h3>
+					<ul>
+						<li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook Bikcraft"></a></li>
+						<li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram Bikcraft"></a></li>
+						<li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter Bikcraft"></a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="copy">
+			<div class="container">
+				<p class="grid-16">Raimundo Cunha 2022 - Alguns direitos reservados.</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JavaScript -->
+	<script src="./js/simple-anime.js"></script>
+	<script src="./js/script.js"></script>
+	<!-- JavaScript -->
+
+</body>
+
+</html>

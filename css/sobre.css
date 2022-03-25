@@ -1,0 +1,134 @@
+@font-face {
+  font-family: typecondensed;
+  src: url(/typecondensed/typewcond_bold.otf);
+}
+
+/*Introdução-interna Sobre*/
+
+.sobre {
+  width: 100%;
+  height: 890px;
+  background:url("../img/sobre-inicio.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.sobre h1 {
+  font-size: 50px;
+  line-height: 90px;
+  font-family: typecondensed;
+  text-transform: uppercase;
+  margin: 130px 0;
+}
+
+/*Conteudo sobre*/
+
+.info-sobre1 {
+  width: 100%;
+  height: 700px;
+  background:url("../img/bg-sobre4.jpg") no-repeat center;
+  background-size: cover;
+  background-position: top;
+}
+
+
+.conteudo-interno {
+  padding: 0 auto;
+  margin-left: 20%;
+  text-align: left;
+}
+
+.conteudo-principal {
+  padding: 0 auto;
+}
+
+.conteudo-principal h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 44px;
+  font-weight: bold;
+  color: #333;
+}
+.conteudo-principal h4::before {
+  width: 0px;
+  height: 0px;
+
+}
+.conteudo-principal h4::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 3px;
+  background: #000;
+  margin: 20px 0px;
+}
+
+.conteudo-interno p {
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+/*Depoimento*/
+
+.depoimento {
+  background: url("../img/bg-depoimento.jpg") no-repeat center;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+.depoimento h2 {
+  color: #fff;
+}
+
+.subtitulo-depoimento {
+  font-family: "Times New Roman", Times, serif, Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-size: 50px;
+  color: #2e2e2e;
+  text-align: center;
+  margin: 90px 0px 30px 0px;
+}
+
+.subtitulo-depoimento::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 8px auto;
+}
+
+.quote_clientes {
+  display: inline-block;
+  text-align: left;
+  background: rgba(248, 234, 234, 0.7);
+  padding: 40px 20px 40px 20px;
+  
+}
+
+.quote_clientes p {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+
+.quote_clientes img {
+  display: block;
+  margin-left: 50%;
+  
+}
+
+/*Inicio Quebra*/
+.quebra-interna {
+  width: 100%;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  padding-top: 40px;
+}
+.quebra-interna p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  font-size: 21px;
+  color: #353535;
+  padding-top: 10px;
+}
