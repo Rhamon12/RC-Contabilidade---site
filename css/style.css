@@ -66,7 +66,8 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #ECECEC;
+  background-image: linear-gradient(to right, white, grey);
+
   padding: 15px 0;
   z-index: 10;
 }
@@ -82,22 +83,58 @@ img {
 }
 
 .header_menu ul li a {
-  color: rgb(58, 58, 58);
+  color: #000;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 14px;
   line-height: 20px;
-  padding: 10px 0;
+  padding: 15px;
+
+  
+  position: relative;
+
 }
 
-.header_menu ul li a:hover {
-  color: #000;
-  text-decoration: underline;
+
+.header_menu ul li a::after,
+.header_menu ul li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: transform .3s ease-in-out;
 }
+
+.header_menu ul li a::before {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: scaleY(0);
+}
+
+.header_menu ul li a::after {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transform: scaleX(0);
+}
+
+.header_menu ul li a:hover::before{
+  color: rgba(2, 138, 93, 0.493);
+  transform: scaleY(1);
+}
+
+.header_menu ul li a:hover::after{
+  color: rgba(2, 138, 93, 0.493);
+  transform: scaleX(1);
+}
+
 
 .header_menu ul li a.menu_ativo {
-  color: #fff;
+  border-bottom: 1px solid #000;
+  transform: scaleX(1);
+  color: rgb(33, 129, 113);
 }
 
 /* Introdução */
@@ -424,7 +461,7 @@ img {
 }
 
 .js [data-slide-nav] button.active {
-  background: #fec63e;
+  background: #4c7470;
 }
 
 .js [data-anime] {
