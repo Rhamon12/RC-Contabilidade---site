@@ -1,0 +1,326 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+
+	/*Introdução*/
+	.introducao {
+		margin-top: 0px;
+	}
+	/*Serviços*/
+
+
+	.introducao-servicos {
+		width: 100%;
+		height: 1280px;
+		background: rgba(0, 0, 0, 0.5) url("../img/bg-servico.jpg") no-repeat center;
+		background-size: cover;
+		background-blend-mode: darken;
+		padding-top: 120px;
+		margin-top: 0px;
+		
+	}
+
+	.introducao-servicos .servico-info .tile-servico {
+		width: 330px;
+		height: 350px;
+		text-align: center;
+		display: inline;
+		margin-left: 5%;
+	}
+
+	.quote_clientes img {
+		display: block;
+		margin-left: 40%;
+		
+	}
+	.linhas {
+		margin-left: 90px;
+		padding-top: 70px;
+		padding-bottom: 70px;
+		
+	}
+
+	/*Orçamento contato*/
+	.orcamento-contato {
+		margin-top: 90px;
+	}
+
+
+	/*Sobre*/
+
+	.sobre {
+		top: 0;
+		margin-top: 90px;
+		width: 100%;
+	}
+
+	.conteudo-principal {
+		text-align: left;
+		padding-top: 100px;
+		
+	}
+	
+	/*Footer*/
+
+	.footer_redes ul li a {
+		border: 3px solid #fec63e;
+		display: block;
+		padding: 6px;
+
+	}
+
+	.footer_redes ul li a img{
+		width: 26px;
+		height: 26px;
+	}
+
+
+} /* Final do estilo para tablets */
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+
+	/*Header*/
+	.header {
+		position: relative;
+		padding-bottom: 0px;
+	}
+
+	.header img {
+		margin: 0 auto 10px auto;
+	}
+
+	.header_menu {
+		text-align: center;
+	}
+
+	.header_menu ul li {
+		margin: 5px;
+	}
+
+	.header_menu ul li a {
+		
+		width: 136px;
+		display: block;
+		float: left;
+	}
+
+
+	/*Introducao*/
+
+	.introducao h1 {
+		font-size: 36px;
+	}
+
+	.introducao h2 {
+		font-size: 26px;
+	}
+
+	.introducao {
+		margin-top: 0px;
+		padding-top: 120px;
+		
+		height: 600px;
+
+	}
+
+	/*Introdução Interna*/
+
+
+	/*Call*/
+	.call {
+		padding-top: 30px;
+	}
+
+
+	/*Sobre-externo*/
+
+	.bg-sobre img {
+		display: none;
+	}
+
+	.conteudo-principal {
+		padding-top: 10px;
+		text-align: center;
+	}
+
+	.conteudo-principal h4::before {
+
+		margin: 20px 35%;
+	}
+	
+	.conteudo-principal h4::after {
+
+		margin: 20px 35%;
+	}
+
+	/*Serviços*/
+
+
+	.introducao-servicos {
+		width: 100%;
+		height: 2280px;
+		background: rgba(0, 0, 0, 0.5) url("../img/bg-servico.jpg") no-repeat center;
+		background-size: cover;
+		background-blend-mode: darken;
+		padding-top: 120px;
+		margin-top: 0px;
+		
+	}
+
+	.introducao-servicos h1 {
+		text-align: center;
+		font-size: 64px;
+		line-height: 65px;
+		position: relative;
+		top: 0px;
+		color: #f2f2f2;
+		font-family: "Times New Roman", sans-serif;
+		
+		
+	}
+
+	.introducao-servicos .servico-info .tile-servico {
+		width: 300px;
+		height: 400px;
+		margin-top: 0px;
+
+	}
+
+
+	.quote_clientes img {
+		display: block;
+		margin-left: 40%;
+		
+	}
+
+	.contato-interno .subtitulo {
+		font-size: 41px;
+	}
+
+	/*Orçamento*/
+
+	.orcamento h2 {
+		margin: 0 auto;
+		text-align: center;
+		color: #000000;
+	}
+	
+	.orcamento h2:after {
+		margin-left: 40%;	
+		background: #000000;
+	}
+
+	.linhas {
+		width: 100%;
+		margin-left: 0px;
+		padding-top: 50px;
+		padding-bottom: 70px;
+		
+	}
+
+	.form {
+		margin-top: 20px;
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	/*Orçamento contato*/
+
+	.orcamento-contato {
+		height: 1350px;
+		margin-top: 0px;		
+	}
+
+	.orcamento-contato h2 {
+		text-align: center;
+	}
+
+	.orcamento-contato h2:after {
+		margin-right: 35%;	
+		background: #000000;
+	  }
+
+	.redes-interno {
+		background: rgba(255, 246, 246, 0.774);
+		background-blend-mode: darken;
+		padding-top: 50px;
+		padding-left: 20px;
+		margin-left: 0px;
+		text-align: left;
+		font-weight: bold;
+	}
+
+	.endereco {
+		display: none;
+	}
+
+	/*Sobre*/
+
+	
+	.sobre {
+		top: 0;
+		margin-top: -80px;
+	}
+
+	.sobre h2 {
+		font-size: 30px;
+		line-height: 45px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	
+	.conteudo-principal h4 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 24px;
+		font-weight: bold;
+		color: #333;
+		padding-top: 20px;
+	}
+
+	.info-sobre1 {
+		height: 800px;
+	}
+
+	
+	/*Depoimento*/
+
+	.quote_clientes {
+		margin-bottom: 40px;
+	}
+
+
+	/*Quebra*/
+
+	.quebra {
+		width: 100%;
+		height: 180px;
+		background-color: rgba(0, 0, 0, 0.4);
+		background-blend-mode: darken;
+		padding-top: 20px;	
+		text-align: left;
+	}
+	.quebra p {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 18px;
+		color: #353535;
+		padding-top: 10px;
+	}
+	.botao-quebra {
+		
+		font-size: 12px;
+		padding-top: 0px;
+		text-align: center;
+	}
+
+
+	/*Contato*/
+
+	.contato_form {
+		padding-right: 0px;
+		margin-bottom: 40px;
+	}
+
+} /* Final do estilo para smartphone */

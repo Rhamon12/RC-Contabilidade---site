@@ -7,37 +7,46 @@
 
 /*Inicio Orçamento*/
 
-.orcamento {
+.orcamento-contato {
 	background: rgba(0, 0, 0, 0.178) url("../img/bg-sobre2.jpg") no-repeat center;
   background-size: cover;
   background-blend-mode: darken;
 	width: 100%;
   height: 1200px;
 	margin-top: 105px;
-	padding: 60px 0;
+ 
+	
 }
 
-.orcamento h1 {
+.orcamento-contato h1 {
   font-family: typecondensed;
   font-size: 80px;
-  color: #363836;
+  
+  color: #ffffffb4;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
   
 }
 
-.orcamento h1:after {
+.orcamento-contato h1:after {
+  content: "";
+  display: block;
+  border-radius: 20px;
+  width: 100px;
+  height: 2px;
   margin: 0 auto;
-  background: #1df700af;
+  background: #ffffff;
 }
 
-.orcamento h2 {
+.orcamento-contato h2 {
   margin: 0 auto;
   font-size: 40px;
   text-align: left;
 	color: #000000;
 }
 
-.orcamento h2:after {
+.orcamento-contato h2:after {
   margin-right: 1000px;	
   background: #000000;
 }
@@ -46,7 +55,7 @@
   background: rgba(255, 246, 246, 0.774);
   background-blend-mode: darken;
   padding: 90px 50px;
-  margin-top: 0 auto;
+  margin-top: 30px;
   text-align: left;
   font-weight: bold;
 }
@@ -96,7 +105,7 @@
   background: rgba(255, 246, 246, 0.774);
   background-blend-mode: darken;
   padding: 90px 50px 50px 50px;
-  margin-top: 0 auto;
+  margin-top: 30px;
   margin-left: 30px;
   text-align: left;
   font-weight: bold;
@@ -140,6 +149,14 @@
 
 .redes-interno ul li a:hover {
   border-color: #fff;
+}
+
+
+
+.endereco img {
+  width: 100%   ;
+  height: 250px;
+  margin-top: 30px;
 }
 
 

@@ -7,17 +7,30 @@
 
 .sobre {
   width: 100%;
-  height: 890px;
+  height: 900px;
   background:url("../img/sobre-inicio.jpg") no-repeat center;
   background-size: cover;
+  text-align: center;
+  margin-top: 105px;
 }
 
 .sobre h1 {
   font-size: 50px;
-  line-height: 90px;
   font-family: typecondensed;
   text-transform: uppercase;
-  margin: 130px 0;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 140px;
+}
+
+.sobre h2 {
+  font-size: 50px;
+  text-align: left;
+  line-height: 70px;
+  font-family: typecondensed;
+  margin: 0 auto;
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
 
 /*Conteudo sobre*/
@@ -28,17 +41,16 @@
   background:url("../img/bg-sobre4.jpg") no-repeat center;
   background-size: cover;
   background-position: top;
+  
 }
 
 
-.conteudo-interno {
-  padding: 0 auto;
-  margin-left: 20%;
-  text-align: left;
-}
+
 
 .conteudo-principal {
-  padding: 0 auto;
+  text-align: left;
+  padding-top: 130px;
+  
 }
 
 .conteudo-principal h4 {
