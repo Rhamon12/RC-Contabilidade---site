@@ -1,6 +1,14 @@
 /*Serviços*/
 
-
+.servico-info li a {
+  
+  text-decoration: none;
+  padding: 2px;
+  color: #ffffff;
+}
+.servico-info a:hover {
+  color: #639206;
+}
 
 /*Introdução-Serviços*/
 
