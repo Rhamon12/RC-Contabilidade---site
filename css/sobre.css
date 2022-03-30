@@ -1,6 +1,6 @@
 @font-face {
   font-family: typecondensed;
-  src: url(/typecondensed/typewcond_bold.otf);
+  src: url(../../typecondensed/typewcond_bold.otf) format('truetype');
 }
 
 /*Introdução-interna Sobre*/
