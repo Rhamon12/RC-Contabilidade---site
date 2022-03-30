@@ -1,8 +1,10 @@
 @font-face {
   font-family: typecondensed;
-  src: url(/typecondensed/typewcond_bold.otf);
-}
+  src: url(../typecondensed/typewcond_bold.otf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
 
+}
 /*Introdução-interna Sobre*/
 
 /*Inicio Orçamento*/
@@ -24,7 +26,7 @@
   
   color: #ffffffb4;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
   
 }
