@@ -278,8 +278,10 @@ img {
 
 .quote_clientes {
   display: inline-block;
+  height: 420px;
   text-align: left;
   background: rgba(248, 234, 234, 0.7);
+  border-radius: 10px;
   padding: 40px 20px 40px 20px;
   margin: 80px 0px 80px 0px;
 }
@@ -287,6 +289,15 @@ img {
 .quote_clientes p {
   color: rgb(0, 0, 0);
   font-weight: 800;
+  height: 280px;
+}
+
+.p2 {
+  display: block;
+  
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
 }
 
 .quote_clientes img {
@@ -432,4 +443,20 @@ img {
   opacity: 1;
   transform: none;
   transition: opacity 800ms, transform 800ms;
+}
+
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
+}
+
+#form-sucesso p {
+  color: #31aa39;
+  padding-top: 30px;
+}
+
+#form-erro p {
+  color: #f64540;
+  padding-top: 30px;
 }
